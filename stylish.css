@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 50px;
+  gap:  10px;
+}
+
+img {
+  width: 100%;
+}
+
+.card h2 {
+  color: rgb(31, 32, 38);
+  font-size: 20px;
+  font-weight: 400;
+  font-weight: 400;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 20px 20px;
+}
+
+h4 {
+  font-size: 13px;
+  color: rgb(31, 32, 38);
+  font-size: 200;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  padding: 10px 0;
+}
+
+.price p {
+  font-size: 15px;
+  color: rgb(31, 32, 38);
+}
+
+.price h5 span {
+  color: rgb(204, 31, 31);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-btn {
+  background: yellow;
+  font-size: 15px;
+  border: none;
+
+  &:hover {
+    border: 1px solid black;
+    background: transparent;
+
+  }
+}
+
+.crd-btn {
+  font-size: 15px;
+  &:hover {
+    border: none;
+    color: white;
+    background: yellow;
+  }
+}
